@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#4169e1"
+    android:layout_height="match_parent"
+    tools:context="com.example.weatherapp.UserNewScreen">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompact"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/newuseractivity_bgheader"
+        android:layout_height="380dp">
+        
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="364dp"
+            android:layout_height="384dp"
+            android:src="@drawable/afsa_weather_logo"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Afsa-Weather"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="37dp"
+            android:layout_width="400dp"
+            android:layout_height="56dp" />
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        android:layout_width="1000dp"
+        android:layout_height="48dp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:textColor="#ABE0D5"
+        android:lineSpacingExtra="0dp"
+        android:layout_marginTop="520dp"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:layout_width="500dp"
+        android:layout_height="75dp"
+        android:text="for precise weather information" />
+
+
+
+
+        <Button
+        android:id="@+id/button"
+        android:layout_marginTop="630dp"
+        android:layout_width="300dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginStart="52dp"
+        android:textSize="25dp"
+        android:layout_height="55dp"
+        android:text="Launch App"/>
+
+</RelativeLayout>
